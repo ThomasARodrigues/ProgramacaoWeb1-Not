@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 6</title>
+    <link rel="stylesheet" href="Questao6.css">
+</head>
+
+<body>
+    <form>
+        <label for="numero1">Numero 1</label>
+        <input type="text" id="numero1">
+        
+
+        <input class="botao" type="submit" value="Submit" onclick="fatorial()">
+        
+    </form>
+    <label for="resultado">Resultado: </label>
+        <p id="resultado"></p>
+
+    <script>
+        function fatorial() {
+            var i = 1,
+                fatorial = 1,
+                valor = document.getElementById("numero1").value;
+
+            while (i <= valor) {
+                var fatorial = fatorial * i;
+                i += 1;
+            }
+            alert('Fatorial de ' + valor + ' é ' + fatorial);
+            document.getElementById("resultado").innerHTML = fatorial;
+        }
+    </script>
+</body>
+
+</html>

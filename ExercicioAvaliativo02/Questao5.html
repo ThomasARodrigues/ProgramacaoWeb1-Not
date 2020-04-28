@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5</title>
+    <link rel="stylesheet" href="Questao5.css">
+</head>
+
+<body>
+    <form>
+        <label for="numero1">Numero 1</label>
+        <input type="text" id="numero1">
+        <label for="numero2">Numero 2</label>
+        <input type="text" id="numero2">
+        <label for="numero3">Numero 3</label>
+        <input type="text" id="numero3">
+
+        
+        <input type="submit" value="Submit" onclick="parImpar()">
+        
+        
+    </form>
+
+    <script>
+         
+            
+        function parImpar() {
+            var n1 = document.getElementById("numero1").value;
+            var n2 = document.getElementById("numero2").value;
+            var n3 = document.getElementById("numero3").value;
+            var soma;
+            soma = (n1+n2+n3);
+            if (soma % 2 == 0) {
+
+                alert("A soma dos numeros é PAR pois o resto da divisão por dois é zero")
+
+            } else {
+
+                alert("A soma dos numeros é IMPAR pois existe resto na divisão por dois")
+
+            }
+        }
+    </script>
+</body>
+
+</html>

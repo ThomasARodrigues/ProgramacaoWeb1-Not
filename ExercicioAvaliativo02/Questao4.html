@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <link rel="stylesheet" href="Questao4.css">
+</head>
+<body>
+    <ul>
+        <h1><b>Lista de Filmes</b></h1>
+        <li id="filme1"></li>
+        <li id="filme2"></li>
+        <li id="filme3"></li>
+    </ul>
+
+    <script>
+        class Filme {
+            constructor(titulo, ano, genero) {
+                this.tituloFilme = titulo;
+                this.anoFilme = ano;
+                this.generoFilme = genero;
+            }
+        }
+
+        filme1 = new Filme("Star Wars I - A Ameaça Fantasma", "1999", "Ficção Cientifica");
+        filme2 = new Filme("Os Vingadores", "2012", "Ação")
+        filme3 = new Filme("Batman vs Superman", "2016", "Ação")
+
+        document.getElementById("filme1").innerHTML = "Titulo: " + filme1.tituloFilme + ", Genero: " + filme1.generoFilme + ", Ano: "+filme1.anoFilme;
+        document.getElementById("filme2").innerHTML = "Titulo: " + filme2.tituloFilme + ", Genero: " + filme2.generoFilme + ", Ano: "+filme2.anoFilme;
+        document.getElementById("filme3").innerHTML = "Titulo: " + filme3.tituloFilme + ", Genero: " + filme3.generoFilme + ", Ano: "+filme3.anoFilme;
+    </script>
+</body>
+
+</html>

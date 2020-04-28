@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .menu{
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        font-family: 'Times New Roman';
+        
+    }
+
+    .menu ul{
+        list-style: none;
+        position: relative;
+    }
+
+    .menu ul li{
+        width:  150px;
+        float: left;
+    }
+
+    .menu a{
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: orange;
+        color: black;
+    }
+    .menu ul ul{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul{
+        visibility: visible;
+    }
+
+    .menu a:hover{
+        background-color: rgb(255, 136, 0);
+
+    }
+    .menu ul ul li{
+        float: none;
+        border-bottom: solid 1px whitesmoke;
+    }
+     
+    .menu ul ul li a{
+        background-color: rgb(255, 214, 125);
+    }
+</style>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href=""> Institucional</a>
+                <ul>
+                    <li><a href=""> Localização</a></li>
+                    <li><a href="">Estrutura</a></li>
+                </ul>
+            </li>
+            <li><a href="">Produtos</a>
+                <ul>
+                    <li><a href="">Notebooks</a></li>
+                    <li><a href="">Celulares</a></li>
+                    <li><a href="">Celulares</a></li>
+                </ul>
+            </li>
+            <li><a href="">Sobre</a>
+                <ul>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+</body>
+</html>

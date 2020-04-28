@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.botao {
+    border:2px solid orange;
+    border-radius:3px;
+    display:inline-block;
+    font-family:'Times New Roman';
+    font-weight:bold;
+    font-size:16px;
+    padding:6px;
+    text-decoration:none;
+    color: orange;
+    background-color: black;
+    }

@@ -1,0 +1,20 @@
+body{
+background-color: lightslategrey;
+}
+
+ul h1{
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    
+}
+
+ul li{
+text-align: center;
+font-size: 25px;
+font-family: serif;
+list-style-type: none;
+
+}

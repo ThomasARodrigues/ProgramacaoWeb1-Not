@@ -1,0 +1,22 @@
+body{
+    align-items: center;
+    background-color: lightsteelblue;
+}
+form {
+    
+    align-items: center;
+    text-align: center;
+    color: mediumblue;
+   
+}
+@media screen and (max-width: 600px){
+form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    float: left;
+    width: 100%;
+    flex-direction: column;
+}
+
+}
