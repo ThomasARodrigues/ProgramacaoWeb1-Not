@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plásticos Rodrigues</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="container cabecalho">
+        <a href="home.html" class="logo"></a>
+        <button class="mnBt"><img src="img/menu.png" alt="menu" class="mnBt bgGradient"></button>
+        <button class="btLogin">Login</button>
+    </header>
+
+    <nav class="menu">
+        <a href="" class="btSair"><img src="img/sair.png" alt="sair"></a>
+        <ul>
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="empresa.html">Empresa</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><button class="btProdutos">Produtos <img src="img/setaDir.png" alt="entrar" class="imgSetaDir"></button>
+                <ul class="produtos">
+                    <a href="" class="btSair"><img src="img/sair.png" alt="sair"></a>
+                    <li><a href="utensilios.html">Utensílios Domésticos</a></li>
+                    <li><a href="rodas.html">Rodas de Nylon</a></li>
+                    <li><a href="industrial.html">Linha Industrial</a></li>
+                    <li><a href="lazer.html">Lazer</a></li>
+                </ul>
+            </li>
+            <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+            <li><a href="contato.html">Contato</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main class="container conteudo">
+        <article class="textos bgWhite">
+            <div class="contatoConteudo">
+                <h2>Endereço</h2>
+                <br>
+                <p>Rua Ribeirão Areia, 500</p>
+                <p>Bairro Ribeirão Areia - Pomerode, SC</p>
+                <p>CEP: 89107-000</p>
+                <p>Telefone: (47)3387-2591</p>
+                <p>Email: contato@plasticosrodrigues.com.br</p>
+                <br>
+                <br>
+            </div>
+            <form action="https://webhook.site/a59219cd-4746-45e4-9b2d-4850ac042440" class="formulario">
+                <label for="nome">Seu nome:</label><br>
+                <input type="text" id="nome" name="nome" value=""><br>
+                <label for="email">Seu e-mail:</label><br>
+                <input type="email" id="email" name="email" value=""><br>
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto" name="assunto" value=""><br>
+                <label for="mensagem">Sua mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" cols="33"></textarea>
+                <br>
+                <input type="submit" value="Enviar" class="enviarForm">
+                <input type="reset" value="Limpar" class="limparForm">
+            </form>
+
+
+        </article>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="container rodape bgGradient">
+        <div class="divisao"></div>
+
+        <img class="imagemrodape" src="img/logo.png" alt="logo rodapé">
+        <section class="contato">
+
+            <h3>Endereço</h3>
+            <p>Rua Ribeirão Areia, 500, Bairro Ribeirão Areia, Pomerode, SC</p>
+            <ul>
+                <h3>Telefone</h3>
+                <li>(47) 3387-4129</li>
+                <li>(47) 3387-2591</li>
+            </ul>
+            <h3>Email</h3>
+            <p>contato@plasticosrodrigues.com.br</p>
+        </section>
+        <div class="divisao"></div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2118.9793434621133!2d-49.17667317475547!3d-26.722531848451013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dee4e69db543c3%3A0x965863541cd47feb!2sPL%C3%81STICOS%20RODRIGUES%20LTDA.!5e0!3m2!1spt-BR!2sbr!4v1590791401237!5m2!1spt-BR!2sbr"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0" class="maps"></iframe>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".mnBt").click(function () {
+            $(".menu").show(400);
+        });
+
+        $(".btSair").click(function () {
+            $(".menu").hide(400);
+        });
+
+        $(".btProdutos").click(function () {
+            $(".produtos").show(400);
+        });
+
+        $(".btLogin").click(function () {
+            window.location.href = 'login.html';
+        });
+
+
+
+    </script>
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,602 @@
+@media screen and (max-width: 1640px){
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+
+}
+
+body{
+background-color: rgb(226, 226, 226);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bgGradient{
+    background: linear-gradient(to right,rgb(255, 81, 0), rgb(255, 222, 178));
+}
+
+.bgWhite{
+    background: white;
+}
+/** Cabeçalho **/
+
+.logo{
+    width: 86px;
+    height: 56px;
+    float: left;
+    background: url(../img/logo.png) center center/95px no-repeat;
+
+}
+
+.mnBt{
+    width: 56px;
+    height: 56px;
+    float: right;
+    
+}
+
+.cabecalho .btLogin{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    left: 43%;
+    top: 3%;
+    background: rgb(13, 26, 104);
+    color: white;
+    
+}
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(255, 181, 132, 0.9);
+    top: 0;
+    left: 0;
+
+}
+
+.produtos {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(255, 181, 132);
+    top: 0;
+    left: 0;
+
+}
+
+.produtos li a{
+    color: black;
+
+}
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+
+.menu ul li{
+    padding: 1.5%;
+
+}
+.menu ul li{
+    padding: 1.5%;
+    
+}
+
+.menu ul li a{
+    font-size: 2em;
+    color: black;
+}
+.btProdutos{
+width: 100%;
+height: 100%;
+background: transparent;
+font-size: 2em;
+color: black;
+left: 25%;
+}
+
+.btSair{
+    width: 56px;
+    height: 56px;
+    float: right;
+    margin: 2% 3% 0 0;
+    
+    
+}
+
+.imgSetaDir{
+    width: 35px;
+    height: 35px;
+    float: right;
+    
+}
+
+.maps{
+    width: 100%;
+    height: auto;
+}
+
+.conteudo .imgEmpresa{
+    width: 100%;
+    height: auto;
+    
+}
+
+.conteudo p{
+    text-align: justify;
+    color: black;
+    padding: 2px;
+}
+
+.textos{
+    padding: 7%;
+}
+
+/** Lightbox produtos **/
+.ul_lbox{
+width: 100%;
+list-style: none;
+display: flex;
+margin: 100px auto;
+
+}
+
+.min{
+    width: 200px;
+    height: auto;
+    padding: 5px;
+
+}
+
+.textos .lbox{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+
+}
+.textos .lbox .img{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    
+}
+
+.lbox{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+}
+.box_img{
+    width: 100%;
+    margin: 150px auto;
+
+}
+
+.btn{
+    color: #000000;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#prev{
+    left: 5%;
+    top: 45%;
+}
+#next{
+    right: 5%;
+    top: 45%;
+}
+
+#close{
+    top: 0;
+    right: 2%;
+}
+
+.box_img img{
+    opacity: 0;
+}
+
+.lbox:target .box_img img{
+    opacity: 1;
+    transition: opacity .4s linear;
+}
+
+.box_img p{
+    text-align: center;
+}
+
+.ul_lbox .infoMini{
+    text-align: center;
+    
+}
+/**Formulario **/
+.formulario input{
+    background: lightgray;
+}
+
+.formulario textarea{
+    background-color: lightgray;
+}
+
+.formulario .enviarForm{
+    background: rgb(13, 26, 104);
+    color: white;
+    padding: 4px;
+}
+.formulario .limparForm{
+    background: rgb(13, 26, 104);
+    color: white;
+    padding: 4px;
+}
+}
+@media screen and (min-width: 1641px){
+
+    .btSair{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    
+    .mnBt{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    
+    .imgSetaDir{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-size: 100%;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        font-family: 'Roboto';
+    
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    ul{
+        list-style: none;
+    }
+
+    body{
+        background: rgb(226, 226, 226);
+    }
+/** Cabeçalho **/
+
+.logo{
+    width: 175px;
+    height: 126px;
+    position: absolute;
+    float: left;
+    left: 48%;
+    background: url(../img/logo.png) center center/175px no-repeat;
+    top: 2%;
+
+}
+    
+
+.cabecalho .btLogin{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    right: 3%;
+    top: 8%;
+    background: rgb(13, 26, 104);
+    color: white;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+/**Menu**/
+
+.btProdutos{
+    width: 100%;
+    height: 49px;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    
+}
+.btProdutos a{
+    visibility: hidden;
+}
+.menu{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    
+    
+    
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+
+    
+
+}
+
+.menu ul li{
+    width:  175px;
+    float: left;
+    align-content: center;
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    
+}
+.menu ul ul{
+    position: absolute;
+    left: 525px;
+    top: 21px;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+.menu .btProdutos:hover{
+    background-color: rgb(13, 26, 104);
+    color: white;
+}
+.menu a:hover{
+    background-color: rgb(13, 26, 104);
+    color: white;
+
+}
+
+.produtos a:hover{
+    background: rgb(13, 26, 104);
+    color: white;
+}
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px whitesmoke;
+}
+
+
+.bgGradient{
+    background: linear-gradient(to right,rgb(255, 81, 0), rgb(255, 222, 178));
+}
+
+.bgWhite{
+    background: white;
+}
+/**Central**/
+.container {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.conteudo .imgEmpresa{
+    width: 100%;
+    height: auto;
+    
+}
+
+.conteudo p{
+    text-align: justify;
+    color: black;
+    padding: 2px;
+}
+
+.container .ul_lbox ul li a img{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    left: 50%;
+    
+}
+
+.textos{
+    padding: 7%;
+   
+}
+
+/**Rodapé**/
+.maps{
+    position: relative;
+    float: right;
+    width: 300px;
+    height: auto;
+    
+}
+.imagemrodape{
+    position: relative;
+    float: left;
+}
+
+.contato {
+    position: relative;
+    float: left;
+    left: 15%;
+    text-align: justify;
+
+}
+
+
+
+/** Lightbox produtos **/
+.ul_lbox{
+width: 100%;
+list-style: none;
+display: flex;
+margin: 100px auto;
+
+}
+
+.min{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+
+}
+
+.lbox{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+}
+.box_img{
+    width: 100%;
+    margin: 150px auto;
+
+}
+
+.btn{
+    color: #000000;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#prev{
+    left: 5%;
+    top: 45%;
+}
+#next{
+    right: 5%;
+    top: 45%;
+}
+
+#close{
+    top: 0;
+    right: 2%;
+}
+
+.box_img img{
+    opacity: 0;
+}
+
+.lbox:target .box_img img{
+    opacity: 1;
+    transition: opacity .4s linear;
+}
+
+.box_img p{
+    text-align: center;
+}
+
+.ul_lbox .infoMini{
+    text-align: center;
+    
+}
+
+/**Formulario **/
+.formulario input{
+    background: lightgray;
+}
+
+.formulario textarea{
+    background-color: lightgray;
+}
+
+.formulario .enviarForm{
+    background: rgb(13, 26, 104);
+    color: white;
+    padding: 4px;
+}
+.formulario .limparForm{
+    background: rgb(13, 26, 104);
+    color: white;
+    padding: 4px;
+}
+.textos{
+    padding: 7%;
+}
+
+    
+}
