@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Thomas Anderson Rodrigues -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Trabalho 3 - Parte 1</h1>
+
+    </header>
+
+
+    <main>
+        <script src="script.js"></script>
+
+        <div class="AddEmpregado">
+            <h3><b>Adicionando novo empregado</b></h3>
+            <form class="formulario">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" value=""><br>
+                <label for="salario">Salário:</label><br>
+                <input type="number" id="salario" name="salario" value=""><br>
+                <label for="idade">Idade:</label><br>
+                <input type="number" id="idade" name="idade" value=""><br>
+                <label for="avatar">Avatar:</label><br>
+                <input type="url" id="avatar" name="avatar" value=""><br>
+                <br>
+                <input type="submit" value="Salvar" onclick="addEmpregado()">
+                <input type="reset" value="Cancelar">
+            </form>
+        </div>
+        <div class="EditarEmpregado">
+            <h3><b>Editando dados do empregado</b></h3>
+            <form class="formulario" >
+                <label for="nome1">Nome:</label><br>
+                <input type="text" id="nome1" name="nome1" value=""><br>
+                <label for="salario1">Salário:</label><br>
+                <input type="number" id="salario1" name="salario1" value=""><br>
+                <label for="idade1">Idade:</label><br>
+                <input type="number" id="idade1" name="idade1" value=""><br>
+                <label for="avatar1">Avatar:</label><br>
+                <input type="url" id="avatar1" name="avatar1" value=""><br>
+                <br>
+                <input type="submit" value="Salvar" onclick="editarEmpregado()">
+                <input type="reset" value="Cancelar">
+            </form>
+        </div>
+
+
+        
+            <table id="tabela" class="Tabela">
+      
+            </table>
+        
+        
+
+
+    </main>
+
+    
+
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>

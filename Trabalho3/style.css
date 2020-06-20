@@ -1,0 +1,53 @@
+/*Thomas Anderson Rodrigues*/
+*{
+    margin: 0px;
+    padding: 2px;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+
+}
+
+body{
+background-color: rgb(226, 226, 226);
+}
+
+.AddEmpregado{
+    position: relative;
+    float: left;
+    text-align: center;
+    background-color: coral;
+    color: black;
+    padding: 5px;
+}
+
+.EditarEmpregado{
+    left: 10px;
+    padding: 5px;
+    position: relative;
+    float: left;
+    text-align: center;
+    background-color: coral;
+    color: black;
+    
+}
+
+.Tabela{
+    top: 10px;
+    width: 100%;
+    position: relative;
+    float: left;
+    background: white;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    border: solid 3px black;
+    
+}
+
+.Tabela tr td{
+    padding: 10px;
+}
