@@ -1,0 +1,23 @@
+h1{
+  color: darkcyan;
+}
+body{
+  background: rgb(239, 239, 239);
+}
+.error{
+  color: red;
+}
+table{
+   border-collapse: collapse;
+  color: black;
+  border: ridge 5px gray;
+  padding: 3px;
+  width: 100%;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+table thead{
+  color: darkcyan;
+  font-weight: bold;
+}
